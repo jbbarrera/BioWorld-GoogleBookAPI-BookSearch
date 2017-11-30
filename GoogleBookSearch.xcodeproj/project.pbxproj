@@ -13,9 +13,9 @@
 		FC0CEB171FCFB99D009CB09C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC0CEB161FCFB99D009CB09C /* Assets.xcassets */; };
 		FC0CEB1A1FCFB99D009CB09C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC0CEB181FCFB99D009CB09C /* LaunchScreen.storyboard */; };
 		FC0CEB251FCFB99E009CB09C /* GoogleBookSearchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FC0CEB241FCFB99E009CB09C /* GoogleBookSearchTests.m */; };
-		FC0CEB3B1FCFBB8C009CB09C /* NetworkClient.m in Sources */ = {isa = PBXBuildFile; fileRef = FC0CEB3A1FCFBB8C009CB09C /* NetworkClient.m */; };
-		FC0CEB3E1FCFBBA3009CB09C /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC0CEB3D1FCFBBA3009CB09C /* DetailViewController.m */; };
 		FC0CEB411FCFBBB9009CB09C /* Book.m in Sources */ = {isa = PBXBuildFile; fileRef = FC0CEB401FCFBBB9009CB09C /* Book.m */; };
+		FC5AD9F71FD04CD90018B491 /* NetworkClient.m in Sources */ = {isa = PBXBuildFile; fileRef = FC5AD9F31FD04CD90018B491 /* NetworkClient.m */; };
+		FC5AD9F81FD04CD90018B491 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC5AD9F51FD04CD90018B491 /* DetailViewController.m */; };
 		FC692E221FCFD6CC00DDD019 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCE3BCF51FCFD2BA0000A60D /* Main.storyboard */; };
 		FC692E251FCFD8FD00DDD019 /* ResultsViewCellTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FC692E241FCFD8FD00DDD019 /* ResultsViewCellTableViewCell.m */; };
 		FC692E261FCFDD5B00DDD019 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FC0CEB1B1FCFB99D009CB09C /* Info.plist */; };
@@ -44,12 +44,12 @@
 		FC0CEB201FCFB99E009CB09C /* GoogleBookSearchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoogleBookSearchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC0CEB241FCFB99E009CB09C /* GoogleBookSearchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GoogleBookSearchTests.m; sourceTree = "<group>"; };
 		FC0CEB261FCFB99E009CB09C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FC0CEB391FCFBB85009CB09C /* NetworkClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = NetworkClient.h; path = ../BookSearch_ObjC/NetworkClient.h; sourceTree = "<group>"; };
-		FC0CEB3A1FCFBB8C009CB09C /* NetworkClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NetworkClient.m; path = ../BookSearch_ObjC/NetworkClient.m; sourceTree = "<group>"; };
-		FC0CEB3C1FCFBBA3009CB09C /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DetailViewController.h; path = ../BookSearch_ObjC/bookSearch/DetailViewController.h; sourceTree = "<group>"; };
-		FC0CEB3D1FCFBBA3009CB09C /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DetailViewController.m; path = ../BookSearch_ObjC/bookSearch/DetailViewController.m; sourceTree = "<group>"; };
 		FC0CEB3F1FCFBBB9009CB09C /* Book.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Book.h; path = ../BookSearch_ObjC/bookSearch/Book.h; sourceTree = "<group>"; };
 		FC0CEB401FCFBBB9009CB09C /* Book.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Book.m; path = ../BookSearch_ObjC/bookSearch/Book.m; sourceTree = "<group>"; };
+		FC5AD9F31FD04CD90018B491 /* NetworkClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkClient.m; sourceTree = "<group>"; };
+		FC5AD9F41FD04CD90018B491 /* NetworkClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkClient.h; sourceTree = "<group>"; };
+		FC5AD9F51FD04CD90018B491 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DetailViewController.m; path = GoogleBookSearch/DetailViewController.m; sourceTree = "<group>"; };
+		FC5AD9F61FD04CD90018B491 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DetailViewController.h; path = GoogleBookSearch/DetailViewController.h; sourceTree = "<group>"; };
 		FC692E231FCFD8FD00DDD019 /* ResultsViewCellTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultsViewCellTableViewCell.h; sourceTree = "<group>"; };
 		FC692E241FCFD8FD00DDD019 /* ResultsViewCellTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultsViewCellTableViewCell.m; sourceTree = "<group>"; };
 		FCE3BCF61FCFD2BA0000A60D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = GoogleBookSearch/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -147,8 +147,8 @@
 		FC0CEB311FCFB9D8009CB09C /* Networking */ = {
 			isa = PBXGroup;
 			children = (
-				FC0CEB391FCFBB85009CB09C /* NetworkClient.h */,
-				FC0CEB3A1FCFBB8C009CB09C /* NetworkClient.m */,
+				FC5AD9F31FD04CD90018B491 /* NetworkClient.m */,
+				FC5AD9F41FD04CD90018B491 /* NetworkClient.h */,
 			);
 			name = Networking;
 			sourceTree = "<group>";
@@ -156,10 +156,10 @@
 		FC0CEB321FCFB9E3009CB09C /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				FC5AD9F51FD04CD90018B491 /* DetailViewController.m */,
+				FC5AD9F61FD04CD90018B491 /* DetailViewController.h */,
 				FC0CEB101FCFB99D009CB09C /* SearchViewController.h */,
 				FC0CEB111FCFB99D009CB09C /* SearchViewController.m */,
-				FC0CEB3C1FCFBBA3009CB09C /* DetailViewController.h */,
-				FC0CEB3D1FCFBBA3009CB09C /* DetailViewController.m */,
 			);
 			name = "View Controllers";
 			sourceTree = "<group>";
@@ -268,13 +268,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC0CEB3B1FCFBB8C009CB09C /* NetworkClient.m in Sources */,
 				FC0CEB121FCFB99D009CB09C /* SearchViewController.m in Sources */,
 				FC0CEB0F1FCFB99D009CB09C /* AppDelegate.m in Sources */,
 				FC0CEB0C1FCFB99D009CB09C /* main.m in Sources */,
+				FC5AD9F71FD04CD90018B491 /* NetworkClient.m in Sources */,
 				FC0CEB411FCFBBB9009CB09C /* Book.m in Sources */,
-				FC0CEB3E1FCFBBA3009CB09C /* DetailViewController.m in Sources */,
 				FC692E251FCFD8FD00DDD019 /* ResultsViewCellTableViewCell.m in Sources */,
+				FC5AD9F81FD04CD90018B491 /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

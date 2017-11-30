@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "BE59D2D62A501AABC2459458F025147C4C764F42",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "A4BF42A9A9531A504537F8D2BCF0F52B10E0F189" : 9223372036854775807,
+    "BE59D2D62A501AABC2459458F025147C4C764F42" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "7D09F4A2-5D27-4F1D-8826-499E5811C251",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "A4BF42A9A9531A504537F8D2BCF0F52B10E0F189" : "BookSearch_ObjC\/",
+    "BE59D2D62A501AABC2459458F025147C4C764F42" : "GoogleBookSearch\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "GoogleBookSearch",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "GoogleBookSearch.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/jbbarrera\/Bioworld-BookSearch-JBB.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "A4BF42A9A9531A504537F8D2BCF0F52B10E0F189"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/jbbarrera\/BioWorld-GoogleBookAPI-BookSearch.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "BE59D2D62A501AABC2459458F025147C4C764F42"
+    }
+  ]
+}
