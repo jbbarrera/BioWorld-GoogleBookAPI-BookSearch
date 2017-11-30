@@ -61,17 +61,21 @@
     }
     NSString * imageURL =[self.bookInstance.smallImageLink objectAtIndex:indexPath.row];
     if ([imageURL isEqual:[NSNull null]]){
-        // cell.cellImageView.image=nil;
+        
     } else {
-        NSData * imageData = [[NSData alloc] init];
-        NSLog(@"image url==%@", imageURL);
-        imageData = [NSData dataWithContentsOfURL:[NSURL URLWithString:imageURL]];
-        // [cell.contentView addSubview:cell.imageView];
-       // cell.imageView.image = [UIImage imageWithData:imageData];
-          cell.cellImageView.image = [UIImage imageWithData:imageData];
-        //cell.imageView.image = cell.cellImageView.image;
-        //cell.cellImageView.image = [UIImage imageWithData:imageData];
-    
+        
+        //Download image in the background
+        dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
+            NSData * imageData = [[NSData alloc] init];
+            NSLog(@"image url==%@", imageURL);
+            imageData = [NSData dataWithContentsOfURL:[NSURL URLWithString:imageURL]];
+            
+            //set the image on the main thread
+            dispatch_async(dispatch_get_main_queue(), ^{
+                 cell.cellImageView.image = [UIImage imageWithData:imageData];
+            });    
+        });
+        
         
     }
     
