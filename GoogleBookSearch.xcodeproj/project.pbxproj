@@ -1,0 +1,493 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FC0CEB0C1FCFB99D009CB09C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FC0CEB0B1FCFB99D009CB09C /* main.m */; };
+		FC0CEB0F1FCFB99D009CB09C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FC0CEB0E1FCFB99D009CB09C /* AppDelegate.m */; };
+		FC0CEB121FCFB99D009CB09C /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC0CEB111FCFB99D009CB09C /* SearchViewController.m */; };
+		FC0CEB171FCFB99D009CB09C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC0CEB161FCFB99D009CB09C /* Assets.xcassets */; };
+		FC0CEB1A1FCFB99D009CB09C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC0CEB181FCFB99D009CB09C /* LaunchScreen.storyboard */; };
+		FC0CEB251FCFB99E009CB09C /* GoogleBookSearchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FC0CEB241FCFB99E009CB09C /* GoogleBookSearchTests.m */; };
+		FC0CEB3B1FCFBB8C009CB09C /* NetworkClient.m in Sources */ = {isa = PBXBuildFile; fileRef = FC0CEB3A1FCFBB8C009CB09C /* NetworkClient.m */; };
+		FC0CEB3E1FCFBBA3009CB09C /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC0CEB3D1FCFBBA3009CB09C /* DetailViewController.m */; };
+		FC0CEB411FCFBBB9009CB09C /* Book.m in Sources */ = {isa = PBXBuildFile; fileRef = FC0CEB401FCFBBB9009CB09C /* Book.m */; };
+		FC692E221FCFD6CC00DDD019 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCE3BCF51FCFD2BA0000A60D /* Main.storyboard */; };
+		FC692E251FCFD8FD00DDD019 /* ResultsViewCellTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FC692E241FCFD8FD00DDD019 /* ResultsViewCellTableViewCell.m */; };
+		FC692E261FCFDD5B00DDD019 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FC0CEB1B1FCFB99D009CB09C /* Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FC0CEB211FCFB99E009CB09C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC0CEAFF1FCFB99D009CB09C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC0CEB061FCFB99D009CB09C;
+			remoteInfo = GoogleBookSearch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FC0CEB071FCFB99D009CB09C /* GoogleBookSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoogleBookSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC0CEB0B1FCFB99D009CB09C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FC0CEB0D1FCFB99D009CB09C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FC0CEB0E1FCFB99D009CB09C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FC0CEB101FCFB99D009CB09C /* SearchViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SearchViewController.h; path = GoogleBookSearch/SearchViewController.h; sourceTree = "<group>"; };
+		FC0CEB111FCFB99D009CB09C /* SearchViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SearchViewController.m; path = GoogleBookSearch/SearchViewController.m; sourceTree = "<group>"; };
+		FC0CEB161FCFB99D009CB09C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FC0CEB191FCFB99D009CB09C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FC0CEB1B1FCFB99D009CB09C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC0CEB201FCFB99E009CB09C /* GoogleBookSearchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoogleBookSearchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC0CEB241FCFB99E009CB09C /* GoogleBookSearchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GoogleBookSearchTests.m; sourceTree = "<group>"; };
+		FC0CEB261FCFB99E009CB09C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC0CEB391FCFBB85009CB09C /* NetworkClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = NetworkClient.h; path = ../BookSearch_ObjC/NetworkClient.h; sourceTree = "<group>"; };
+		FC0CEB3A1FCFBB8C009CB09C /* NetworkClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NetworkClient.m; path = ../BookSearch_ObjC/NetworkClient.m; sourceTree = "<group>"; };
+		FC0CEB3C1FCFBBA3009CB09C /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DetailViewController.h; path = ../BookSearch_ObjC/bookSearch/DetailViewController.h; sourceTree = "<group>"; };
+		FC0CEB3D1FCFBBA3009CB09C /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DetailViewController.m; path = ../BookSearch_ObjC/bookSearch/DetailViewController.m; sourceTree = "<group>"; };
+		FC0CEB3F1FCFBBB9009CB09C /* Book.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Book.h; path = ../BookSearch_ObjC/bookSearch/Book.h; sourceTree = "<group>"; };
+		FC0CEB401FCFBBB9009CB09C /* Book.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Book.m; path = ../BookSearch_ObjC/bookSearch/Book.m; sourceTree = "<group>"; };
+		FC692E231FCFD8FD00DDD019 /* ResultsViewCellTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultsViewCellTableViewCell.h; sourceTree = "<group>"; };
+		FC692E241FCFD8FD00DDD019 /* ResultsViewCellTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultsViewCellTableViewCell.m; sourceTree = "<group>"; };
+		FCE3BCF61FCFD2BA0000A60D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = GoogleBookSearch/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC0CEB041FCFB99D009CB09C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC0CEB1D1FCFB99E009CB09C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FC0CEAFE1FCFB99D009CB09C = {
+			isa = PBXGroup;
+			children = (
+				FC0CEB321FCFB9E3009CB09C /* View Controllers */,
+				FC0CEB301FCFB9CE009CB09C /* Models */,
+				FC0CEB2F1FCFB9C1009CB09C /* Views */,
+				FC0CEB091FCFB99D009CB09C /* GoogleBookSearch */,
+				FC0CEB231FCFB99E009CB09C /* GoogleBookSearchTests */,
+				FC0CEB081FCFB99D009CB09C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FC0CEB081FCFB99D009CB09C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC0CEB071FCFB99D009CB09C /* GoogleBookSearch.app */,
+				FC0CEB201FCFB99E009CB09C /* GoogleBookSearchTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC0CEB091FCFB99D009CB09C /* GoogleBookSearch */ = {
+			isa = PBXGroup;
+			children = (
+				FC0CEB0D1FCFB99D009CB09C /* AppDelegate.h */,
+				FC0CEB0E1FCFB99D009CB09C /* AppDelegate.m */,
+				FC0CEB161FCFB99D009CB09C /* Assets.xcassets */,
+				FC0CEB1B1FCFB99D009CB09C /* Info.plist */,
+				FC0CEB0A1FCFB99D009CB09C /* Supporting Files */,
+			);
+			path = GoogleBookSearch;
+			sourceTree = "<group>";
+		};
+		FC0CEB0A1FCFB99D009CB09C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FC0CEB0B1FCFB99D009CB09C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FC0CEB231FCFB99E009CB09C /* GoogleBookSearchTests */ = {
+			isa = PBXGroup;
+			children = (
+				FC0CEB241FCFB99E009CB09C /* GoogleBookSearchTests.m */,
+				FC0CEB261FCFB99E009CB09C /* Info.plist */,
+			);
+			path = GoogleBookSearchTests;
+			sourceTree = "<group>";
+		};
+		FC0CEB2F1FCFB9C1009CB09C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FCE3BCF51FCFD2BA0000A60D /* Main.storyboard */,
+				FC0CEB181FCFB99D009CB09C /* LaunchScreen.storyboard */,
+				FC692E231FCFD8FD00DDD019 /* ResultsViewCellTableViewCell.h */,
+				FC692E241FCFD8FD00DDD019 /* ResultsViewCellTableViewCell.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		FC0CEB301FCFB9CE009CB09C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FC0CEB3F1FCFBBB9009CB09C /* Book.h */,
+				FC0CEB401FCFBBB9009CB09C /* Book.m */,
+				FC0CEB311FCFB9D8009CB09C /* Networking */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		FC0CEB311FCFB9D8009CB09C /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				FC0CEB391FCFBB85009CB09C /* NetworkClient.h */,
+				FC0CEB3A1FCFBB8C009CB09C /* NetworkClient.m */,
+			);
+			name = Networking;
+			sourceTree = "<group>";
+		};
+		FC0CEB321FCFB9E3009CB09C /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FC0CEB101FCFB99D009CB09C /* SearchViewController.h */,
+				FC0CEB111FCFB99D009CB09C /* SearchViewController.m */,
+				FC0CEB3C1FCFBBA3009CB09C /* DetailViewController.h */,
+				FC0CEB3D1FCFBBA3009CB09C /* DetailViewController.m */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC0CEB061FCFB99D009CB09C /* GoogleBookSearch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC0CEB291FCFB99E009CB09C /* Build configuration list for PBXNativeTarget "GoogleBookSearch" */;
+			buildPhases = (
+				FC0CEB031FCFB99D009CB09C /* Sources */,
+				FC0CEB041FCFB99D009CB09C /* Frameworks */,
+				FC0CEB051FCFB99D009CB09C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoogleBookSearch;
+			productName = GoogleBookSearch;
+			productReference = FC0CEB071FCFB99D009CB09C /* GoogleBookSearch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FC0CEB1F1FCFB99E009CB09C /* GoogleBookSearchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC0CEB2C1FCFB99E009CB09C /* Build configuration list for PBXNativeTarget "GoogleBookSearchTests" */;
+			buildPhases = (
+				FC0CEB1C1FCFB99E009CB09C /* Sources */,
+				FC0CEB1D1FCFB99E009CB09C /* Frameworks */,
+				FC0CEB1E1FCFB99E009CB09C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC0CEB221FCFB99E009CB09C /* PBXTargetDependency */,
+			);
+			name = GoogleBookSearchTests;
+			productName = GoogleBookSearchTests;
+			productReference = FC0CEB201FCFB99E009CB09C /* GoogleBookSearchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC0CEAFF1FCFB99D009CB09C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Jason;
+				TargetAttributes = {
+					FC0CEB061FCFB99D009CB09C = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 8USAJTQFTW;
+						ProvisioningStyle = Automatic;
+					};
+					FC0CEB1F1FCFB99E009CB09C = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FC0CEB061FCFB99D009CB09C;
+					};
+				};
+			};
+			buildConfigurationList = FC0CEB021FCFB99D009CB09C /* Build configuration list for PBXProject "GoogleBookSearch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FC0CEAFE1FCFB99D009CB09C;
+			productRefGroup = FC0CEB081FCFB99D009CB09C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC0CEB061FCFB99D009CB09C /* GoogleBookSearch */,
+				FC0CEB1F1FCFB99E009CB09C /* GoogleBookSearchTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC0CEB051FCFB99D009CB09C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC692E261FCFDD5B00DDD019 /* Info.plist in Resources */,
+				FC692E221FCFD6CC00DDD019 /* Main.storyboard in Resources */,
+				FC0CEB1A1FCFB99D009CB09C /* LaunchScreen.storyboard in Resources */,
+				FC0CEB171FCFB99D009CB09C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC0CEB1E1FCFB99E009CB09C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC0CEB031FCFB99D009CB09C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC0CEB3B1FCFBB8C009CB09C /* NetworkClient.m in Sources */,
+				FC0CEB121FCFB99D009CB09C /* SearchViewController.m in Sources */,
+				FC0CEB0F1FCFB99D009CB09C /* AppDelegate.m in Sources */,
+				FC0CEB0C1FCFB99D009CB09C /* main.m in Sources */,
+				FC0CEB411FCFBBB9009CB09C /* Book.m in Sources */,
+				FC0CEB3E1FCFBBA3009CB09C /* DetailViewController.m in Sources */,
+				FC692E251FCFD8FD00DDD019 /* ResultsViewCellTableViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC0CEB1C1FCFB99E009CB09C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC0CEB251FCFB99E009CB09C /* GoogleBookSearchTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FC0CEB221FCFB99E009CB09C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC0CEB061FCFB99D009CB09C /* GoogleBookSearch */;
+			targetProxy = FC0CEB211FCFB99E009CB09C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FC0CEB181FCFB99D009CB09C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC0CEB191FCFB99D009CB09C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			path = GoogleBookSearch;
+			sourceTree = "<group>";
+		};
+		FCE3BCF51FCFD2BA0000A60D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCE3BCF61FCFD2BA0000A60D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FC0CEB271FCFB99E009CB09C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FC0CEB281FCFB99E009CB09C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FC0CEB2A1FCFB99E009CB09C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8USAJTQFTW;
+				INFOPLIST_FILE = GoogleBookSearch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jbbarrera.GoogleBookSearch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FC0CEB2B1FCFB99E009CB09C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8USAJTQFTW;
+				INFOPLIST_FILE = GoogleBookSearch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jbbarrera.GoogleBookSearch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FC0CEB2D1FCFB99E009CB09C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GoogleBookSearchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jbbarrera.GoogleBookSearchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoogleBookSearch.app/GoogleBookSearch";
+			};
+			name = Debug;
+		};
+		FC0CEB2E1FCFB99E009CB09C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GoogleBookSearchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jbbarrera.GoogleBookSearchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoogleBookSearch.app/GoogleBookSearch";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC0CEB021FCFB99D009CB09C /* Build configuration list for PBXProject "GoogleBookSearch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC0CEB271FCFB99E009CB09C /* Debug */,
+				FC0CEB281FCFB99E009CB09C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC0CEB291FCFB99E009CB09C /* Build configuration list for PBXNativeTarget "GoogleBookSearch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC0CEB2A1FCFB99E009CB09C /* Debug */,
+				FC0CEB2B1FCFB99E009CB09C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC0CEB2C1FCFB99E009CB09C /* Build configuration list for PBXNativeTarget "GoogleBookSearchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC0CEB2D1FCFB99E009CB09C /* Debug */,
+				FC0CEB2E1FCFB99E009CB09C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FC0CEAFF1FCFB99D009CB09C /* Project object */;
+}
