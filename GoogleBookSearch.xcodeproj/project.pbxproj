@@ -13,7 +13,7 @@
 		FC0CEB171FCFB99D009CB09C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC0CEB161FCFB99D009CB09C /* Assets.xcassets */; };
 		FC0CEB1A1FCFB99D009CB09C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC0CEB181FCFB99D009CB09C /* LaunchScreen.storyboard */; };
 		FC0CEB251FCFB99E009CB09C /* GoogleBookSearchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FC0CEB241FCFB99E009CB09C /* GoogleBookSearchTests.m */; };
-		FC0CEB411FCFBBB9009CB09C /* Book.m in Sources */ = {isa = PBXBuildFile; fileRef = FC0CEB401FCFBBB9009CB09C /* Book.m */; };
+		FC3860F31FD04E33006B4774 /* Book.m in Sources */ = {isa = PBXBuildFile; fileRef = FC3860F11FD04E33006B4774 /* Book.m */; };
 		FC5AD9F71FD04CD90018B491 /* NetworkClient.m in Sources */ = {isa = PBXBuildFile; fileRef = FC5AD9F31FD04CD90018B491 /* NetworkClient.m */; };
 		FC5AD9F81FD04CD90018B491 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC5AD9F51FD04CD90018B491 /* DetailViewController.m */; };
 		FC692E221FCFD6CC00DDD019 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCE3BCF51FCFD2BA0000A60D /* Main.storyboard */; };
@@ -44,8 +44,8 @@
 		FC0CEB201FCFB99E009CB09C /* GoogleBookSearchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoogleBookSearchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC0CEB241FCFB99E009CB09C /* GoogleBookSearchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GoogleBookSearchTests.m; sourceTree = "<group>"; };
 		FC0CEB261FCFB99E009CB09C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FC0CEB3F1FCFBBB9009CB09C /* Book.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Book.h; path = ../BookSearch_ObjC/bookSearch/Book.h; sourceTree = "<group>"; };
-		FC0CEB401FCFBBB9009CB09C /* Book.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Book.m; path = ../BookSearch_ObjC/bookSearch/Book.m; sourceTree = "<group>"; };
+		FC3860F11FD04E33006B4774 /* Book.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Book.m; sourceTree = "<group>"; };
+		FC3860F21FD04E33006B4774 /* Book.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Book.h; sourceTree = "<group>"; };
 		FC5AD9F31FD04CD90018B491 /* NetworkClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkClient.m; sourceTree = "<group>"; };
 		FC5AD9F41FD04CD90018B491 /* NetworkClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkClient.h; sourceTree = "<group>"; };
 		FC5AD9F51FD04CD90018B491 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DetailViewController.m; path = GoogleBookSearch/DetailViewController.m; sourceTree = "<group>"; };
@@ -137,8 +137,8 @@
 		FC0CEB301FCFB9CE009CB09C /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				FC0CEB3F1FCFBBB9009CB09C /* Book.h */,
-				FC0CEB401FCFBBB9009CB09C /* Book.m */,
+				FC3860F11FD04E33006B4774 /* Book.m */,
+				FC3860F21FD04E33006B4774 /* Book.h */,
 				FC0CEB311FCFB9D8009CB09C /* Networking */,
 			);
 			name = Models;
@@ -272,8 +272,8 @@
 				FC0CEB0F1FCFB99D009CB09C /* AppDelegate.m in Sources */,
 				FC0CEB0C1FCFB99D009CB09C /* main.m in Sources */,
 				FC5AD9F71FD04CD90018B491 /* NetworkClient.m in Sources */,
-				FC0CEB411FCFBBB9009CB09C /* Book.m in Sources */,
 				FC692E251FCFD8FD00DDD019 /* ResultsViewCellTableViewCell.m in Sources */,
+				FC3860F31FD04E33006B4774 /* Book.m in Sources */,
 				FC5AD9F81FD04CD90018B491 /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
